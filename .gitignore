@@ -9,4 +9,4 @@ venv.bak/
 
 .vscode/
 
-__pycache__
+__pycache__/

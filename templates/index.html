@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-   
-{% block body %}
+
+{% block content %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <div>
@@ -16,12 +16,12 @@
   <script>
       function getBotResponse() {
         var rawText = $("#textInput").val();
-        var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+        var userHtml = '<p class="userText">You: <span>' + rawText + '</span></p>';
         $("#textInput").val("");
         $("#chatbox").append(userHtml);
         document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
         $.get("/get", { msg: rawText }).done(function(data) {
-          var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+          var botHtml = '<p class="botText">Mr. Robot: <span>' + data + '</span></p>';
           $("#chatbox").append(botHtml);
           document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
         });

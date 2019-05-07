@@ -10,7 +10,9 @@ trainer.train("chatterbot.corpus.english")
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    username = request.args.get('name')
+
+    return render_template("index.html", name=username)
 
 @app.route("/get")
 def get_bot_response():
