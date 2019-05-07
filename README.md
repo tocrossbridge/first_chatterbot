@@ -9,8 +9,11 @@ Unfortunatelly, I've done this at course, using an windows (so arght! D:), here 
 # How to run this?
 1. Create and activate your virtualenv or similar
 2. pip install -r requirements.txt
-3. 
-
+3. USE:
+    flask run
+        OR
+    python app.py
+4. Enjoy :)
 
 #TUTORIAL: How can I do an similar project, by myself?
 

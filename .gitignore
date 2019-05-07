@@ -7,6 +7,6 @@ ENV/
 env.bak/
 venv.bak/
 
-chatenv/
-
 .vscode/
+
+__pycache__
