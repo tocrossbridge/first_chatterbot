@@ -1,8 +1,8 @@
-# first_chatterbot
+# first chatterbot
 
 
 Hello there! How are you?
-I'm @bridgetocross and this is my first chat using <a href="https://chatterbot.readthedocs.io/en/stable/">chatterbox</a>.
+I'm [@bridgetocross](https://www.instagram.com/bridgetocross/) and this is my first chat using <a href="https://chatterbot.readthedocs.io/en/stable/">chatterbox</a>.
 
 Unfortunatelly, I've done this at course, using an windows (so arght! D:), here is the steps to create and run chatterbox in your machine, with web:
 
@@ -15,9 +15,12 @@ Unfortunatelly, I've done this at course, using an windows (so arght! D:), here 
     python app.py
 4. Enjoy :)
 
-#TUTORIAL: How can I do an similar project, by myself?
+# TUTORIAL
 
-#Windows
+How can I do an similar project, by myself?
+
+**At Windows**
+
 1. Install python, the 64 bits version.
 2. Create ya virtualenv or similar:
     pip install virtualenv
@@ -35,4 +38,5 @@ Unfortunatelly, I've done this at course, using an windows (so arght! D:), here 
 
 
 . : A T T E N T I O N : .
+
 Maybe you will have an alert at prompt of command, warning about PyYAML 5.1 and so on, but, it's not important. Just keep it.
